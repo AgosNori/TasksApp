@@ -1,0 +1,23 @@
+.cardTask{
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    height: 150px;
+    border-radius: 100px 0 100px 0;
+    border: solid white;
+    flex-direction: column;
+    background-color: #343434f9;
+    gap: 30px;
+    justify-content: center;
+
+}
+.cardTask h2{
+    text-align: center;
+}
+.cardTask p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}

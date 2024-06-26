@@ -1,0 +1,65 @@
+
+.formContainer {
+    background-color: #3a3a3a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.taskForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField, .textArea {
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+.inputField:focus, .textArea:focus {
+    border-color: aqua;
+    outline: none;
+}
+
+.errorText {
+    color: red;
+    
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.saveButton, .deleteButton {
+    background-color: aqua;
+    border: none;
+    color: black;
+    font-weight: 300;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+.saveButton:hover, .deleteButton:hover {
+    background-color: #00ced1;
+    transform: translateY(-2px);
+}
+
+.deleteButton {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.deleteButton:hover {
+    background-color: darkred;
+}
